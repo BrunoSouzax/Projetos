@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 html {
     font-size: 62.5%;
@@ -75,6 +76,6 @@ table td, table th {
     text-align: left;
 }
 
-tfoot td, table th {
+tfoot td, table th, .bg {
     background: var(--primary-color);
 }

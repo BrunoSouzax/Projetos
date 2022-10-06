@@ -4,6 +4,21 @@
     background-position: center center;
     color: var(--white-color);
 }
+
+.main-bg2 {
+    background-image: url('../img/main.svg/Moon.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.main-bg3 {
+    background-image: url('../img/main.svg/prism.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
 .white-bg {
     background: var(--white-color);
     color: var(--primary-color);
@@ -21,4 +36,19 @@
 
 .menu-spacing {
     height: 6.5rem;
+}
+
+.style-link a {
+    list-style: none;
+    color: rgb(0, 238, 255);
+}
+
+.style-link a:hover {
+    color: rgb(38, 112, 209);
+    list-style: underline;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
 }
